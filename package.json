@@ -1,0 +1,22 @@
+{
+  "name": "python-aws-serverless-dependencies",
+  "version": "1.0.0",
+  "description": "This repository respond as an example for this medium article",
+  "main": "index.js",
+  "dependencies": {
+    "serverless-python-requirements": "^5.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JicLotus/python-aws-serverless-dependencies.git"
+  },
+  "author": "Jose Ignacio Castelli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JicLotus/python-aws-serverless-dependencies/issues"
+  },
+  "homepage": "https://github.com/JicLotus/python-aws-serverless-dependencies#readme"
+}

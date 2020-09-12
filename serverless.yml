@@ -1,0 +1,23 @@
+service: lambda-example
+
+provider:
+  name: aws
+  runtime: python3.7
+package:
+  individually: true
+  exclude:
+    - __pycache__/**
+    - node_modules/**
+    - Pipfile
+    - Pipfile.lock
+    - package.json
+    - package-lock.json
+    - README.md
+    - .serverless/**
+    - Layers/**
+functions:
+  lambda_example:
+    handler: your_lambda_fn.handler
+    layers:
+       - arn:aws:lambda:us-east-1:749026999448:layer:sqlalchemy:5
+       - arn:aws:lambda:us-east-1:749026999448:layer:pandas:8

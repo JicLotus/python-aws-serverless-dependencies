@@ -1,0 +1,17 @@
+service: sls-layers-panda-requirement
+
+provider:
+  name: aws
+  runtime: python3.7
+
+plugins:
+  - serverless-python-requirements
+
+custom:
+  pythonRequirements:
+    dockerizePip: non-linux
+    layer:
+      name: pandas
+      description: Pandas Library
+      compatibleRuntimes:
+        - python3.7
