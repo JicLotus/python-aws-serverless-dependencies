@@ -2,7 +2,7 @@
 
 This repository respond as an example for this medium article
 
-
+https://medium.com/@joseignaciocastelli92/python-packages-with-aws-layers-the-right-way-1cff618e0772
 
 ## Install serverless python requirement
 
