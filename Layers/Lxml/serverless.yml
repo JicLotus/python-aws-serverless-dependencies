@@ -1,0 +1,12 @@
+service: sls-layers-lxml-requirement
+
+provider:
+  name: aws
+  runtime: python3.6
+
+layers:
+  lxml:
+    path: Lxml
+    CompatibleRuntimes: [
+      "python3.6"
+    ]
