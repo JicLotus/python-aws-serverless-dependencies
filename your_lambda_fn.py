@@ -1,7 +1,6 @@
 """Sample doctring docu."""
 
-import pandas as pd
-import sqlalchemy
+import lxml
 
 def handler(event, context):
     """Sample handler function."""

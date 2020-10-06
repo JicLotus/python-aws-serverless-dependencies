@@ -9,6 +9,7 @@ verify_ssl = true
 pandas = "*"
 sqlalchemy = "*"
 psycopg2-binary = "*"
+lxml = "*"
 
 [requires]
 python_version = "3.7"
